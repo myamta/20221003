@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20221004 test</title>
+    <meta name="title" content="네이버 페이지 테스트">
+    <meta name="description" content="og 확인할 문서">
+
+    <!-- og -->
+    <meta property="og:title" content="네이버페이지만들기">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="김지예 ">
+    <meta property="og:image" content="https://myamta.github.io/metaex/images/fullimage.jpg">
+    <meta property="og:url" content="https://myamta.github.io/metaex">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        a{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+        <a href="#">본문으로 바로가기</a>
+      
+
+        <h1><a href="#">NAVER</a></h1>
+        <h2>네이버 회원가입</h2>
+        <form>
+       
+            
+            <section>
+                    <h3><label for="user_Id">아이디</label></h3>
+                    
+                    <input type="text" name="user_id" id="user_Id">@naver.com
+                
+            </section>
+            
+            <section>
+                    <h3><label for="user_Pw">비밀번호</label></h3>
+                    <input type="password" name="user_pw" id="user_Pw">
+            
+            </section>
+
+            <section>
+                <h3><label for="pw_Again">비밀번호 재확인</label></h3>
+                    <input type="password" name="pw_again" id="pw_Again">
+                    설정하려는 비밀번호가 맞는지 확인하기 위해 다시 입력 해주세요.
+            </section>
+            
+            <section>
+                <h3><label for="user_Name">이름</label></h3>
+                <input type="text" name="user_name" id="user_Name">
+                
+            </section>
+
+            <section>
+                <h3><label for="user_Year">생년월일</label></h3>
+                <input type="text" name="year" id=user_Year placeholder="년(4자)"><br>
+                        
+                        <select name="month">
+                        <option value="1">1월</option>
+                        <option value="2">2월</option>
+                        <option value="3">3월</option>
+                        <option value="4">4월</option>
+                        <option value="5">5월</option>
+                        <option value="6">6월</option>
+                        <option value="7">7월</option>
+                        <option value="8">8월</option>
+                        <option value="9">9월</option>
+                        <option value="10">10월</option>
+                        <option value="11">11월</option>
+                        <option value="12">12월</option>
+                        <option value="choice" selected>월</option>
+                        </select>
+                        
+                        <br>
+                    
+                        <input type="text" name="year" placeholder="일">
+            </section>
+
+            <section>
+                
+                <h3>성별</h3>
+                    <select name="gender">
+                        <option value="man">남자</option>
+                        <option value="woman">여자</option>
+                        <option value="sex" id=user_gender selected>성별</option>
+
+                    </select>               
+            </section>
+
+            <section>
+                <h3>
+                    <label for="email_again">본인확인 이메일(선택)
+                    </label>
+                </h3>
+                <input type="text" id="email_again" placeholder="선택입력">
+               
+            </section>
+
+            <section>
+                <h3><label for="user_Phone">휴대전화</label></h3>
+                <select name="phone" id="Phone">
+                    <option value="82" selected>대한민국 +82</option>
+                    <option value="81">일본 +81</option>
+                </select>
+                <br>
+                <input type="text" name="user_phone" id="user_Phone" placeholder="전화번호 입력"> <a href="#">인증번호 받기</a>
+                <br>
+                <input type="text" placeholder="인증번호를 입력하세요">
+                인증받은 후 인증번호를 입력해야 합니다.
+                <br>
+                
+                <button>가입하기</button>
+            </section>
+
+            <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                <li><a href="#">책임의 한계와 법적 고지</a></li>
+                <li><a href="#">회원정보 고객센터</a></li>
+            </ul>
+    </form>
+        <address>
+        <em><a href="#">naver</a> Copyright ⓒ <a href="#">NAVER Corp.</a> ALL Rights Reserved.</em>
+        </address>
+</body>
+</html>
